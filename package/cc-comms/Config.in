@@ -1,0 +1,9 @@
+config BR2_PACKAGE_CC_COMMS
+	bool "cc-comms"
+	depends on BR2_INSTALL_LIBSTDCPP
+	help
+	  Core component of the CommsChampion Ecosystem. C++(11) library to
+	  implement binary communication protocols.
+
+comment "cc-comms support needs a toolchain w/ C++"
+	depends on !BR2_INSTALL_LIBSTDCPP

@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_COMMS_CHAMP_PATH/package/cc-comms/Config.in"
