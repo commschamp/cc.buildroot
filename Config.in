@@ -1,2 +1,3 @@
 source "$BR2_EXTERNAL_COMMS_CHAMP_PATH/package/cc-comms/Config.in"
 source "$BR2_EXTERNAL_COMMS_CHAMP_PATH/package/cc-mqtt311/Config.in"
+source "$BR2_EXTERNAL_COMMS_CHAMP_PATH/package/cc-mqttsn/Config.in"
