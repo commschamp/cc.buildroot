@@ -1,0 +1,10 @@
+config BR2_PACKAGE_CC_MQTT5
+	bool "cc-mqtt5"
+	depends on BR2_INSTALL_LIBSTDCPP
+	select BR2_PACKAGE_CC_COMMS
+	help
+	  MQTT v5 protocol definition headers only library implemented using
+	  COMMS library from the CommsChampion Ecosystem.
+
+comment "cc-mqtt5 support needs a toolchain w/ C++"
+	depends on !BR2_INSTALL_LIBSTDCPP
