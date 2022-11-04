@@ -1,0 +1,11 @@
+config BR2_PACKAGE_CC_UBLOX
+	bool "cc-ublox"
+	depends on BR2_INSTALL_LIBSTDCPP
+	select BR2_PACKAGE_CC_COMMS
+	help
+	  UBX protocol definition headers only library implemented using
+	  COMMS library from the CommsChampion Ecosystem. The UBX binary
+	  protocol is used by the u-blox GPS receivers.
+
+comment "cc-ublox support needs a toolchain w/ C++"
+	depends on !BR2_INSTALL_LIBSTDCPP
