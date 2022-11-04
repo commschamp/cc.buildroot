@@ -1,0 +1,10 @@
+config BR2_PACKAGE_CC_X509
+	bool "cc-x509"
+	depends on BR2_INSTALL_LIBSTDCPP
+	select BR2_PACKAGE_CC_COMMS
+	help
+	  X.509 public key infrastructure implemented using
+	  COMMS library from the CommsChampion Ecosystem.
+
+comment "cc-x509 support needs a toolchain w/ C++"
+	depends on !BR2_INSTALL_LIBSTDCPP
