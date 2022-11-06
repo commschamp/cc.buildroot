@@ -1,0 +1,31 @@
+comment "host cc-commsdsl needs a toolchain w/ host gcc >= 8.0"
+	depends on !BR2_HOST_GCC_AT_LEAST_8
+
+config BR2_PACKAGE_HOST_CC_COMMSDSL
+	bool "host cc-commsdsl"
+	depends on BR2_HOST_GCC_AT_LEAST_8
+	help
+	  Code generators of the CommsChampion Ecosystem.
+	  Provides main commsdl2comms code generator.
+
+if BR2_PACKAGE_HOST_CC_COMMSDSL
+
+config BR2_PACKAGE_HOST_CC_COMMSDSL2TEST
+	bool "host commsdsl2test"
+	help
+	  Code generator of the CommsChampion Ecosystem.
+	  Provides commsdl2test code generator.
+
+config BR2_PACKAGE_HOST_CC_COMMSDSL2TOOLS_QT
+	bool "host commsdsl2tools_qt"
+	help
+	  Code generator of the CommsChampion Ecosystem.
+	  Provides commsdl2tools_qt code generator.
+
+config BR2_PACKAGE_HOST_CC_COMMSDSL2SWIG
+	bool "host commsdsl2swig"
+	help
+	  Code generator of the CommsChampion Ecosystem.
+	  Provides commsdl2swig code generator.
+
+endif
