@@ -14,3 +14,11 @@ It provides latest available versions of the
 - [cc-mqttsn](package/cc-mqttsn) - Package of the [cc.mqttsn.generated](https://github.com/commschamp/cc.mqttsn.generated).
 - [cc-ublox](package/cc-ublox) - Package of the [cc.ublox.generated](https://github.com/commschamp/cc.ublox.generated).
 - [cc-x509](package/cc-x509) - Package of the [cc.x509.generated](https://github.com/commschamp/cc.x509.generated).
+
+# Some Tips
+In case some other project requires code generators from the CommsChampion Ecosystem add "host-cc-commsdsl" to the dependencies.
+```
+MY_APP_DEPENDENCIES = \
+    cc-comms \
+    host-cc-commsdsl
+```
