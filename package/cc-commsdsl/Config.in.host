@@ -28,4 +28,9 @@ config BR2_PACKAGE_HOST_CC_COMMSDSL2SWIG
 	  Code generator of the CommsChampion Ecosystem.
 	  Provides commsdl2swig code generator.
 
+config BR2_PACKAGE_HOST_CC_COMMSDSL2EMSCRIPTEN
+	bool "host commsdsl2emscripten"
+	help
+	  Code generator of the CommsChampion Ecosystem.
+	  Provides commsdl2emscripten code generator.
 endif
