@@ -1,0 +1,50 @@
+config BR2_PACKAGE_CC_MQTTSN_LIBS
+	bool "cc-mqttsn-libs"
+	depends on BR2_INSTALL_LIBSTDCPP
+	select BR2_PACKAGE_CC_COMMS
+	select BR2_PACKAGE_CC_MQTT311
+	select BR2_PACKAGE_CC_MQTTSN
+	help
+	  MQTT-SN client / gateway libraries.
+
+if BR2_PACKAGE_CC_MQTTSN_LIBS
+
+	config BR2_PACKAGE_CC_MQTTSN_LIBS_CLIENT
+		bool "cc_mqttsn_client library"
+		help
+		MQTT-SN client library.
+
+	if BR2_PACKAGE_CC_MQTTSN_LIBS_CLIENT
+
+		comment "cc_mqttsn_client UDP apps require qt5base"
+			depends on !BR2_PACKAGE_QT5BASE
+
+		config BR2_PACKAGE_CC_MQTTSN_LIBS_CLIENT_UDP_QT_APPS
+			bool "cc_mqttsn_client UDP apps"
+			depends on BR2_PACKAGE_QT5BASE
+			help
+			Qt5 based MQTT-SN UDP client applications.
+
+	endif # BR2_PACKAGE_CC_MQTTSN_LIBS_CLIENT
+
+	config BR2_PACKAGE_CC_MQTTSN_LIBS_GATEWAY
+		bool "cc_mqttsn_gateway library"
+		help
+		MQTT-SN gateway library
+
+	if BR2_PACKAGE_CC_MQTTSN_LIBS_GATEWAY
+
+		comment "cc_mqttsn_gateway UDP app requires qt5base"
+			depends on !BR2_PACKAGE_QT5BASE
+
+		config BR2_PACKAGE_CC_MQTTSN_LIBS_GATEWAY_UDP_QT_APPS
+			bool "cc_mqttsn_gateway UDP app"
+			depends on BR2_PACKAGE_QT5BASE
+			help
+			Qt5 based MQTT-SN UDP gateway application.
+
+	endif # BR2_PACKAGE_CC_MQTTSN_LIBS_GATEWAY
+endif # if BR2_PACKAGE_CC_MQTTSN_LIBS
+
+comment "cc-mqttsn-libs support needs a toolchain w/ C++"
+	depends on !BR2_INSTALL_LIBSTDCPP

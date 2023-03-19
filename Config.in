@@ -2,6 +2,7 @@ source "$BR2_EXTERNAL_COMMS_CHAMP_PATH/package/cc-comms/Config.in"
 source "$BR2_EXTERNAL_COMMS_CHAMP_PATH/package/cc-mqtt311/Config.in"
 source "$BR2_EXTERNAL_COMMS_CHAMP_PATH/package/cc-mqtt5/Config.in"
 source "$BR2_EXTERNAL_COMMS_CHAMP_PATH/package/cc-mqttsn/Config.in"
+source "$BR2_EXTERNAL_COMMS_CHAMP_PATH/package/cc-mqttsn-libs/Config.in"
 source "$BR2_EXTERNAL_COMMS_CHAMP_PATH/package/cc-ublox/Config.in"
 source "$BR2_EXTERNAL_COMMS_CHAMP_PATH/package/cc-x509/Config.in"
 
