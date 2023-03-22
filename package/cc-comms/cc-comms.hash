@@ -1,4 +1,5 @@
 # sha256 locally computed
+sha256  e9c090862bc429ea299a52175b6f1320059a2f7ed1bab3efa60229117cdda4e2  cc-comms-5.1.2.tar.gz
 sha256  a910b4b0e14fe2ec93732db0130796b33dfee83839cb1a6bb226771efa237137  cc-comms-5.1.1.tar.gz
 sha256  58ca5684d0027da51247fb4ee61c5d57fe37fb22586f696dbafd0d7aff2a0ea8  cc-comms-5.0.3.tar.gz
 sha256  b70e530ee98741b58bca7127c1c4ee92682e075fa9be7b1904e1c6d8fff7e251  cc-comms-5.0.2.tar.gz
