@@ -1,4 +1,5 @@
 # sha256 locally computed
+sha256  ccdba84f79b9f45a4355242d2c2f970053591661cd150ea58b6b2f3d5e73e38a  cc-commsdsl-6.2.1.tar.gz
 sha256  5a7ceb49367d3f2e72727c46397ffc19fe25510d9a4f03010d9dc998f2b983fd  cc-commsdsl-6.2.tar.gz
 sha256  e9fb4c9425b73aa291759fff943c9c7b21b9a013ab937bc63a91ed2813747ae1  cc-commsdsl-6.1.tar.gz
 sha256  d356981dc54e78a13e2dd986f801e5c733f084abdd499e7c767e5f10a9a08fb9  cc-commsdsl-6.0.tar.gz
