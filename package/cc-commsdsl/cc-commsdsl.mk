@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-CC_COMMSDSL_VERSION = 6.2.1
+CC_COMMSDSL_VERSION = 6.2.4
 CC_COMMSDSL_SITE = $(call github,commschamp,commsdsl,v$(CC_COMMSDSL_VERSION))
 CC_COMMSDSL_INSTALL_STAGING = YES
 CC_COMMSDSL_LICENSE = Apache-2.0
