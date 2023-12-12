@@ -4,11 +4,16 @@
 #
 ################################################################################
 
-CC_MQTTSN_LIBS_VERSION = 1.0.5
+CC_MQTTSN_LIBS_VERSION = 1.0.6
 CC_MQTTSN_LIBS_SITE = $(call github,commschamp,cc.mqttsn.libs,v$(CC_MQTTSN_LIBS_VERSION))
 CC_MQTTSN_LIBS_INSTALL_STAGING = YES
 CC_MQTTSN_LIBS_LICENSE = MPL-2
-CC_MQTTSN_LIBS_DEPENDENCIES = cc-comms cc-mqttsn cc-mqtt311
+CC_MQTTSN_LIBS_DEPENDENCIES = \
+	cc-comms \
+	cc-mqttsn \
+	cc-mqtt311 \
+	$(if $(BR2_PACKAGE_CC_MQTTSN_LIBS_CLIENT_UDP_QT_APPS),qt5base,)
+
 CC_MQTTSN_LIBS_LICENSE_FILES = LICENSE
 
 CC_MQTTSN_LIBS_CONF_OPTS = \

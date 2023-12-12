@@ -1,4 +1,5 @@
 # sha256 locally computed
+sha256  01beb382a86dd74ef7737cfaf53eff92b09340143e8d0abd6bafe7e362d2bfb9  cc-mqtt311-2.5.tar.gz
 sha256  3dad8faa7ee6f2ab0ac9f0b0001e18425d5c6e6ed472dd2bba66c9aabef5b5f4  cc-mqtt311-2.4.tar.gz
 sha256  c66428709326a9310914d787cfad4e15adbc78868f0cfbf8834649335faf35c5  cc-mqtt311-2.3.1.tar.gz
 sha256  ab3687b68289e0d94866115ab2f73915de3f2109bce3a370b198857bb31d45b1  cc-mqtt311-2.3.tar.gz
