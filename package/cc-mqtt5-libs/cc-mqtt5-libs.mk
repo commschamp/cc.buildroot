@@ -4,10 +4,10 @@
 #
 ################################################################################
 
-CC_MQTT5_LIBS_VERSION = 0.3
+CC_MQTT5_LIBS_VERSION = 0.3.1
 CC_MQTT5_LIBS_SITE = $(call github,commschamp,cc.mqtt5.libs,v$(CC_MQTT5_LIBS_VERSION))
 CC_MQTT5_LIBS_INSTALL_STAGING = YES
-CC_MQTT5_LIBS_LICENSE = MPL-2
+CC_MQTT5_LIBS_LICENSE = MPL-2.0
 CC_MQTT5_LIBS_DEPENDENCIES = \
 	cc-comms \
 	cc-mqtt5 \
