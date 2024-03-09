@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-CC_X509_VERSION = 0.7
+CC_X509_VERSION = 0.8
 CC_X509_SITE = $(call github,commschamp,cc.x509.generated,v$(CC_X509_VERSION))
 CC_X509_INSTALL_STAGING = YES
 CC_X509_LICENSE = MPL-2.0

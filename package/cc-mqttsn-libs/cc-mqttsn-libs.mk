@@ -4,10 +4,10 @@
 #
 ################################################################################
 
-CC_MQTTSN_LIBS_VERSION = 1.0.6
+CC_MQTTSN_LIBS_VERSION = 1.0.7
 CC_MQTTSN_LIBS_SITE = $(call github,commschamp,cc.mqttsn.libs,v$(CC_MQTTSN_LIBS_VERSION))
 CC_MQTTSN_LIBS_INSTALL_STAGING = YES
-CC_MQTTSN_LIBS_LICENSE = MPL-2
+CC_MQTTSN_LIBS_LICENSE = MPL-2.0
 CC_MQTTSN_LIBS_DEPENDENCIES = \
 	cc-comms \
 	cc-mqttsn \
