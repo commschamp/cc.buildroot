@@ -1,4 +1,5 @@
 # sha256 locally computed
+sha256  98dd50b021180d444c82bf63f7f3ff4e0cf160785fe4feba0709866e5bb393bd  cc-mqtt5-2.7.tar.gz
 sha256  60713cd35ee601ddfbd7c8669fa522d445178c5fa1d3ea58ce38e246fda2a06a  cc-mqtt5-2.6.tar.gz
 sha256  92d36696f6406fa392745e3e2d864ca15493a3413bf7ae3328a6b77e8241dbf0  cc-mqtt5-2.5.tar.gz
 sha256  c8847a1681487bad306dd6d3499f771710626a9d282ce4cb5ca3dba1cde03db0  cc-mqtt5-2.4.tar.gz
