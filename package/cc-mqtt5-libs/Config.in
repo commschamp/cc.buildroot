@@ -4,18 +4,18 @@ config BR2_PACKAGE_CC_MQTT5_LIBS_CLIENT
 	select BR2_PACKAGE_CC_COMMS
 	select BR2_PACKAGE_CC_MQTT5
 	help
-	  MQTT5 client library
+	  MQTT v5 client library
 
 if BR2_PACKAGE_CC_MQTT5_LIBS_CLIENT
 
 	comment "cc_mqtt5_client apps require boost"
 		depends on !BR2_PACKAGE_BOOST_PROGRAM_OPTIONS || !BR2_PACKAGE_BOOST_SYSTEM
 
-	config BR2_PACKAGE_CC_MQTTSN_LIBS_CLIENT_TOOLS
-		bool "cc_mqttsn_client tools"
+	config BR2_PACKAGE_CC_MQTT5_LIBS_CLIENT_APPS
+		bool "cc_mqtt5_client apps"
 		depends on BR2_PACKAGE_BOOST_PROGRAM_OPTIONS && BR2_PACKAGE_BOOST_SYSTEM
 		help
-		mqtt5 client tools.
+			mqtt5 client apps.
 
 endif # if BR2_PACKAGE_CC_MQTT5_LIBS_CLIENT
 
