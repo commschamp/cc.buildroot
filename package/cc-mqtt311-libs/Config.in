@@ -1,0 +1,23 @@
+config BR2_PACKAGE_CC_MQTT311_LIBS_CLIENT
+	bool "cc_mqtt311_client library"
+	depends on BR2_INSTALL_LIBSTDCPP
+	select BR2_PACKAGE_CC_COMMS
+	select BR2_PACKAGE_CC_MQTT311
+	help
+	  MQTT v3.1.1 client library
+
+if BR2_PACKAGE_CC_MQTT311_LIBS_CLIENT
+
+	comment "cc_mqtt311_client apps require boost"
+		depends on !BR2_PACKAGE_BOOST_PROGRAM_OPTIONS || !BR2_PACKAGE_BOOST_SYSTEM
+
+	config BR2_PACKAGE_CC_MQTT311_LIBS_CLIENT_APPS
+		bool "cc_mqtt311_client apps"
+		depends on BR2_PACKAGE_BOOST_PROGRAM_OPTIONS && BR2_PACKAGE_BOOST_SYSTEM
+		help
+			MQTT v3.1.1 client apps.
+
+endif # if BR2_PACKAGE_CC_MQTT311_LIBS_CLIENT
+
+comment "cc_mqtt311_client support needs a toolchain w/ C++"
+	depends on !BR2_INSTALL_LIBSTDCPP
