@@ -15,7 +15,7 @@ if BR2_PACKAGE_CC_MQTT311_LIBS_CLIENT
 		bool "cc_mqtt311_client apps"
 		depends on BR2_PACKAGE_BOOST_PROGRAM_OPTIONS && BR2_PACKAGE_BOOST_SYSTEM
 		help
-			mqtt311 client apps.
+			MQTT v3.1.1 client apps.
 
 endif # if BR2_PACKAGE_CC_MQTT311_LIBS_CLIENT
 
