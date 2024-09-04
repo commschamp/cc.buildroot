@@ -8,7 +8,7 @@ config BR2_PACKAGE_CC_MQTT311_LIBS_CLIENT
 
 if BR2_PACKAGE_CC_MQTT311_LIBS_CLIENT
 
-	comment "cc_mqtt311_client apps require boost"
+	comment "cc_mqtt311_client apps require boost (program_options and system)"
 		depends on !BR2_PACKAGE_BOOST_PROGRAM_OPTIONS || !BR2_PACKAGE_BOOST_SYSTEM
 
 	config BR2_PACKAGE_CC_MQTT311_LIBS_CLIENT_APPS

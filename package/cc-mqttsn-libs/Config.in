@@ -16,7 +16,7 @@ if BR2_PACKAGE_CC_MQTTSN_LIBS
 
 	if BR2_PACKAGE_CC_MQTTSN_LIBS_CLIENT
 
-		comment "cc_mqttsn_client apps require boost"
+		comment "cc_mqttsn_client apps require boost (program_options and system)"
 			depends on !BR2_PACKAGE_BOOST_PROGRAM_OPTIONS || !BR2_PACKAGE_BOOST_SYSTEM
 
 		config BR2_PACKAGE_CC_MQTTSN_LIBS_CLIENT_APPS
@@ -34,7 +34,7 @@ if BR2_PACKAGE_CC_MQTTSN_LIBS
 
 	if BR2_PACKAGE_CC_MQTTSN_LIBS_GATEWAY
 
-		comment "cc_mqttsn_gateway apps require boost"
+		comment "cc_mqttsn_gateway apps require boost (program_options and system)"
 			depends on !BR2_PACKAGE_BOOST_PROGRAM_OPTIONS || !BR2_PACKAGE_BOOST_SYSTEM
 
 		config BR2_PACKAGE_CC_MQTTSN_LIBS_GATEWAY_APPS
