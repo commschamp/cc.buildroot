@@ -12,36 +12,36 @@ if BR2_PACKAGE_CC_MQTTSN_LIBS
 	config BR2_PACKAGE_CC_MQTTSN_LIBS_CLIENT
 		bool "cc_mqttsn_client library"
 		help
-		MQTT-SN client library.
+			MQTT-SN client library.
 
 	if BR2_PACKAGE_CC_MQTTSN_LIBS_CLIENT
 
-		comment "cc_mqttsn_client UDP apps require qt5base"
-			depends on !BR2_PACKAGE_QT5BASE
+		comment "cc_mqttsn_client apps require boost (program_options and system)"
+			depends on !BR2_PACKAGE_BOOST_PROGRAM_OPTIONS || !BR2_PACKAGE_BOOST_SYSTEM
 
-		config BR2_PACKAGE_CC_MQTTSN_LIBS_CLIENT_UDP_QT_APPS
-			bool "cc_mqttsn_client UDP apps"
-			depends on BR2_PACKAGE_QT5BASE
+		config BR2_PACKAGE_CC_MQTTSN_LIBS_CLIENT_APPS
+			bool "cc_mqttsn_client apps"
+			depends on BR2_PACKAGE_BOOST_PROGRAM_OPTIONS && BR2_PACKAGE_BOOST_SYSTEM
 			help
-			Qt5 based MQTT-SN UDP client applications.
+				MQTT-SN client apps.
 
 	endif # BR2_PACKAGE_CC_MQTTSN_LIBS_CLIENT
 
 	config BR2_PACKAGE_CC_MQTTSN_LIBS_GATEWAY
 		bool "cc_mqttsn_gateway library"
 		help
-		MQTT-SN gateway library
+			MQTT-SN gateway library
 
 	if BR2_PACKAGE_CC_MQTTSN_LIBS_GATEWAY
 
-		comment "cc_mqttsn_gateway UDP app requires qt5base"
-			depends on !BR2_PACKAGE_QT5BASE
+		comment "cc_mqttsn_gateway apps require boost (program_options and system)"
+			depends on !BR2_PACKAGE_BOOST_PROGRAM_OPTIONS || !BR2_PACKAGE_BOOST_SYSTEM
 
-		config BR2_PACKAGE_CC_MQTTSN_LIBS_GATEWAY_UDP_QT_APPS
-			bool "cc_mqttsn_gateway UDP app"
-			depends on BR2_PACKAGE_QT5BASE
+		config BR2_PACKAGE_CC_MQTTSN_LIBS_GATEWAY_APPS
+			bool "cc_mqttsn_gateway apps"
+			depends on BR2_PACKAGE_BOOST_PROGRAM_OPTIONS && BR2_PACKAGE_BOOST_SYSTEM
 			help
-			Qt5 based MQTT-SN UDP gateway application.
+				MQTT-SN gateway apps.
 
 	endif # BR2_PACKAGE_CC_MQTTSN_LIBS_GATEWAY
 endif # if BR2_PACKAGE_CC_MQTTSN_LIBS
