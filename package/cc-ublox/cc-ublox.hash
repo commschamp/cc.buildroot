@@ -1,4 +1,5 @@
 # sha256 locally computed
+sha256  6f7658826b99c610ee6c184881984cacfa4ee22f3cf2bc50e6274c5eaa219c93  cc-ublox-2.9.tar.gz
 sha256  164f92c09fe7e8db6b3272f53ae52059a1287f8354629b39f9005bcedc82ab52  cc-ublox-2.8.tar.gz
 sha256  7c8c469041acab1fbb1ff3c55b4cd3ef1a02729e6d1e6b0a515ca063d5b54f75  cc-ublox-2.7.tar.gz
 sha256  112112478780cca07faa2fcdf139f2e49e6f86e4a16702f6d612c1e884b90972  cc-ublox-2.6.tar.gz

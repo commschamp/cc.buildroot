@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-CC_UBLOX_VERSION = 2.8
+CC_UBLOX_VERSION = 2.9
 CC_UBLOX_SITE = $(call github,commschamp,cc.ublox.generated,v$(CC_UBLOX_VERSION))
 CC_UBLOX_INSTALL_STAGING = YES
 CC_UBLOX_LICENSE = MPL-2.0
