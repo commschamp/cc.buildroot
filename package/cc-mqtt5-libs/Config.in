@@ -1,23 +1,31 @@
 config BR2_PACKAGE_CC_MQTT5_LIBS_CLIENT
-	bool "cc_mqtt5_client library"
-	depends on BR2_INSTALL_LIBSTDCPP
-	select BR2_PACKAGE_CC_COMMS
-	select BR2_PACKAGE_CC_MQTT5
-	help
-	  MQTT v5 client library
+bool "cc_mqtt5_client library"
+    depends on BR2_INSTALL_LIBSTDCPP
+    select BR2_PACKAGE_CC_COMMS
+    select BR2_PACKAGE_CC_MQTT5
+    help
+      MQTT v5 client library
 
 if BR2_PACKAGE_CC_MQTT5_LIBS_CLIENT
 
-	comment "cc_mqtt5_client apps require boost (program_options and system)"
-		depends on !BR2_PACKAGE_BOOST_PROGRAM_OPTIONS || !BR2_PACKAGE_BOOST_SYSTEM
+    comment "cc_mqtt5_client apps require boost (program_options and system)"
+        depends on !BR2_PACKAGE_BOOST_PROGRAM_OPTIONS || !BR2_PACKAGE_BOOST_SYSTEM
 
-	config BR2_PACKAGE_CC_MQTT5_LIBS_CLIENT_APPS
-		bool "cc_mqtt5_client apps"
-		depends on BR2_PACKAGE_BOOST_PROGRAM_OPTIONS && BR2_PACKAGE_BOOST_SYSTEM
-		help
-			MQTT v5 client apps.
+    config BR2_PACKAGE_CC_MQTT5_LIBS_CLIENT_APPS
+        bool "cc_mqtt5_client apps"
+        depends on BR2_PACKAGE_BOOST_PROGRAM_OPTIONS && BR2_PACKAGE_BOOST_SYSTEM
+        help
+            MQTT v5 client apps.
+
+    if BR2_PACKAGE_CC_MQTT5_LIBS_CLIENT_APPS
+        config BR2_PACKAGE_CC_MQTT5_LIBS_CLIENT_APPS_WITH_TLS
+            bool "TLS support in cc_mqtt5_client apps"
+            depends on BR2_PACKAGE_OPENSSL
+            help
+                MQTT v5 client apps with TLS support.
+    endif # if BR2_PACKAGE_CC_MQTT5_LIBS_CLIENT_APPS
 
 endif # if BR2_PACKAGE_CC_MQTT5_LIBS_CLIENT
 
 comment "cc_mqtt5_client support needs a toolchain w/ C++"
-	depends on !BR2_INSTALL_LIBSTDCPP
+    depends on !BR2_INSTALL_LIBSTDCPP
