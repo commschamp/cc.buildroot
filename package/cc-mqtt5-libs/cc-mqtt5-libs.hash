@@ -1,4 +1,5 @@
 # sha256 locally computed
+sha256  e4a04c84a804a8eeeeddea6c1992c9f4eb6f1cdd7f46946c173f3fa064896e23  cc-mqtt5-libs-1.0.5.tar.gz
 sha256  b6f33de46831b045f2b112264ca9e2f8fc823ee390438156abb6c65b57d1d4ab  cc-mqtt5-libs-1.0.4.tar.gz
 sha256  0a1e778af1c33c414527a83a7c7e172fdc7e003c85887c379a7b18a59130bb6d  cc-mqtt5-libs-1.0.1.tar.gz
 sha256  b32e000243f34a876eb2dea5d16627d5f36d3b4cf6a2f66dfa031450427dad06  cc-mqtt5-libs-1.0.tar.gz
@@ -10,6 +11,3 @@ sha256  ab9eb2e061c749081734e1054f5eda04557fb972df4168fc9eee17fc86daf639  cc-mqt
 sha256  8e1c6cbb2fc62388f81c84cc5f12dea1593cf2a128f224acb39475ead14456bf  cc-mqtt5-libs-0.1.1.tar.gz
 sha256  37a65348affdd3c45740d9514d41e9f1b9b288a11410a80f7871f304868705b5  cc-mqtt5-libs-0.1.tar.gz
 sha256  fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85  LICENSE
-
-
-
