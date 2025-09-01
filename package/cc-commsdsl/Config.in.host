@@ -33,4 +33,10 @@ config BR2_PACKAGE_HOST_CC_COMMSDSL2EMSCRIPTEN
 	help
 	  Code generator of the CommsChampion Ecosystem.
 	  Provides commsdl2emscripten code generator.
+
+config BR2_PACKAGE_HOST_CC_COMMSDSL2LATEX
+	bool "host commsdsl2latex"
+	help
+	  Code generator of the CommsChampion Ecosystem.
+	  Provides commsdl2latex code generator.
 endif
