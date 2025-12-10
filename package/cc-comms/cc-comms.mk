@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-CC_COMMS_VERSION = 5.4.4
+CC_COMMS_VERSION = 5.4.5
 CC_COMMS_SITE = $(call github,commschamp,comms,v$(CC_COMMS_VERSION))
 CC_COMMS_INSTALL_STAGING = YES
 CC_COMMS_LICENSE = MPL-2.0

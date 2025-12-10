@@ -10,23 +10,11 @@ config BR2_PACKAGE_HOST_CC_COMMSDSL
 
 if BR2_PACKAGE_HOST_CC_COMMSDSL
 
-config BR2_PACKAGE_HOST_CC_COMMSDSL2TEST
-	bool "host commsdsl2test"
+config BR2_PACKAGE_HOST_CC_COMMSDSL2C
+	bool "host commsdsl2c"
 	help
 	  Code generator of the CommsChampion Ecosystem.
-	  Provides commsdl2test code generator.
-
-config BR2_PACKAGE_HOST_CC_COMMSDSL2TOOLS_QT
-	bool "host commsdsl2tools_qt"
-	help
-	  Code generator of the CommsChampion Ecosystem.
-	  Provides commsdl2tools_qt code generator.
-
-config BR2_PACKAGE_HOST_CC_COMMSDSL2SWIG
-	bool "host commsdsl2swig"
-	help
-	  Code generator of the CommsChampion Ecosystem.
-	  Provides commsdl2swig code generator.
+	  Provides commsdl2c code generator.
 
 config BR2_PACKAGE_HOST_CC_COMMSDSL2EMSCRIPTEN
 	bool "host commsdsl2emscripten"
@@ -39,4 +27,23 @@ config BR2_PACKAGE_HOST_CC_COMMSDSL2LATEX
 	help
 	  Code generator of the CommsChampion Ecosystem.
 	  Provides commsdl2latex code generator.
+
+config BR2_PACKAGE_HOST_CC_COMMSDSL2SWIG
+	bool "host commsdsl2swig"
+	help
+	  Code generator of the CommsChampion Ecosystem.
+	  Provides commsdl2swig code generator.
+
+config BR2_PACKAGE_HOST_CC_COMMSDSL2TEST
+	bool "host commsdsl2test"
+	help
+	  Code generator of the CommsChampion Ecosystem.
+	  Provides commsdl2test code generator.
+
+config BR2_PACKAGE_HOST_CC_COMMSDSL2TOOLS_QT
+	bool "host commsdsl2tools_qt"
+	help
+	  Code generator of the CommsChampion Ecosystem.
+	  Provides commsdl2tools_qt code generator.
+
 endif
