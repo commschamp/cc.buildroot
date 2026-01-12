@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-CC_MQTTSN_VERSION = 3.0.4
+CC_MQTTSN_VERSION = 3.0.5
 CC_MQTTSN_SITE = $(call github,commschamp,cc.mqttsn.generated,v$(CC_MQTTSN_VERSION))
 CC_MQTTSN_INSTALL_STAGING = YES
 CC_MQTTSN_LICENSE = MPL-2.0

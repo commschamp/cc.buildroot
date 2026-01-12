@@ -1,4 +1,5 @@
 # sha256 locally computed
+sha256  d4d7e49517ffb2743dbbdd9956b0410fe8ae0a6886aea8a83062ec068cfbd05e  cc-mqtt311-libs-1.0.7.tar.gz
 sha256  31c81325d3d0403ff683aeee27152e245fbf623d90b5eb9f3836fbc130ce9bee  cc-mqtt311-libs-1.0.6.tar.gz
 sha256  aa892c3d5a57bd584d025f5c7e9c082b9f001b5e25cbff266cec2c66de830611  cc-mqtt311-libs-1.0.5.tar.gz
 sha256  89b32b418762657986ea215e4ae17a938c49c85d1614753495d66925ec282ba0  cc-mqtt311-libs-1.0.4.tar.gz
@@ -7,6 +8,4 @@ sha256  39da768e3ad1303825fcfc0d132df1355d0802a9f5ac2880d2c56534cdcdfbde  cc-mqt
 sha256  6786d514eeea8c13d0bf193c057c08af1f4f4fadb154e98b891e69d72771b4be  cc-mqtt311-libs-0.1.1.tar.gz
 sha256  b2c012a7b8a3f61e9371fc7bc8907c46d42f7591f03d3aa16330ac4b05d15c44  cc-mqtt311-libs-0.1.tar.gz
 sha256  fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85  LICENSE
-
-
 

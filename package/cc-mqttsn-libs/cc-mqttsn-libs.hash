@@ -1,4 +1,5 @@
 # sha256 locally computed
+sha256  f707402c0184e5c7c0864cb6d160076ee60d16a54c09319b75e38574f20ef2be  cc-mqttsn-libs-2.0.11.tar.gz
 sha256  ccf1393f29229a85e428e36e88f37fb77b675f903ab90226e203d85f1115b40d  cc-mqttsn-libs-2.0.10.tar.gz
 sha256  ce15dd9dbc7ea8b58364a735863b172fe1cf311c5b7c9dd179d532ffce14de11  cc-mqttsn-libs-2.0.9.tar.gz
 sha256  76e9f2f988d7c178bc0baab7fa1a708feccb22c27eb9cc9116e890a76f6c6305  cc-mqttsn-libs-2.0.8.tar.gz
@@ -12,6 +13,4 @@ sha256  ffde5d00471f62eae722151b16c774e4a8b33993a02371f87c1fa5d390e11936  cc-mqt
 sha256  9eec694a2cded24bfd3ce7759990197351afb15a57947761790d7546647768b4  cc-mqttsn-libs-1.0.3.tar.gz
 sha256  f6c5fec45c0b8405e7989ee6c04cc4e807eac95c612bba12eecdee94db0715a9  cc-mqttsn-libs-1.0.2.tar.gz
 sha256  fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85  LICENSE
-
-
 

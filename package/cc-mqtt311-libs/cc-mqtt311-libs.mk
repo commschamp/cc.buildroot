@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-CC_MQTT311_LIBS_VERSION = 1.0.6
+CC_MQTT311_LIBS_VERSION = 1.0.7
 CC_MQTT311_LIBS_SITE = $(call github,commschamp,cc.mqtt311.libs,v$(CC_MQTT311_LIBS_VERSION))
 CC_MQTT311_LIBS_INSTALL_STAGING = YES
 CC_MQTT311_LIBS_LICENSE = MPL-2.0
