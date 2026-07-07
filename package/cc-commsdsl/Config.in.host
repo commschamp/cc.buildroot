@@ -46,4 +46,10 @@ config BR2_PACKAGE_HOST_CC_COMMSDSL2TOOLS_QT
 	  Code generator of the CommsChampion Ecosystem.
 	  Provides commsdl2tools_qt code generator.
 
+config BR2_PACKAGE_HOST_CC_COMMSDSL2WIRESHARK
+	bool "host commsdsl2wireshark"
+	help
+	  Code generator of the CommsChampion Ecosystem.
+	  Provides commsdl2wireshark code generator.
+
 endif
