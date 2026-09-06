@@ -1,4 +1,5 @@
 # sha256 locally computed
+sha256  939ea7fbcb7d7d44a5ef34090ae14c5cff82c8e1d4616bb3b3f43976494d9e3b  cc-mqtt311-libs-1.0.9.tar.gz
 sha256  4bba4f5de92115a58b8b8af57b28025b10f22e8235fa48fc93eeba47ce3ea0ab  cc-mqtt311-libs-1.0.8.tar.gz
 sha256  d4d7e49517ffb2743dbbdd9956b0410fe8ae0a6886aea8a83062ec068cfbd05e  cc-mqtt311-libs-1.0.7.tar.gz
 sha256  31c81325d3d0403ff683aeee27152e245fbf623d90b5eb9f3836fbc130ce9bee  cc-mqtt311-libs-1.0.6.tar.gz
